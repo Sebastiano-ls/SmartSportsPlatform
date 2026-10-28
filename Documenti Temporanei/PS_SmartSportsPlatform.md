@@ -91,7 +91,7 @@ L'usabilità è divisa per utente: Cliente e Dipendente. In fondo ci sono i requ
 
 ### 2.1.2 Usabilità — Dipendente
 
-- **RNF-U-D1:** Il dipendente svolge da solo le operazioni di ogni giorno: prenotazioni in sede, calendario del giorno, comunicazioni standaRF.
+- **RNF-U-D1:** Il dipendente svolge da solo le operazioni di ogni giorno: prenotazioni in sede, calendario del giorno, comunicazioni standard.
 
 ### 2.1.3 Usabilità — Comuni
 
@@ -103,12 +103,12 @@ L'usabilità è divisa per utente: Cliente e Dipendente. In fondo ci sono i requ
 ## 2.2 Affidabilità
 
 - **RNF-A1:** Il sistema è disponibile sempre, salvo manutenzioni di notte o guasti.
-- **RNF-A2:** Una prenotazione confermata non si peRFe se il server o il database hanno un guasto. Ogni operazione sul database va a buon fine del tutto o non viene salvata.
+- **RNF-A2:** Una prenotazione confermata non si perde se il server o il database hanno un guasto. Ogni operazione sul database va a buon fine del tutto o non viene salvata.
 - **RNF-A3:** Uno stesso orario di un servizio non può essere prenotato più volte del limite previsto, anche con richieste contemporanee.
 
 ### 2.2.1 Sicurezza
 
-- **RNF-R7:** Per entrare serve un account personale (e-mail e passwoRF). Le passwoRF sono sempre cifrate e mai visibili.
+- **RNF-R7:** Per entrare serve un account personale (e-mail e password). Le password sono sempre cifrate e mai visibili.
 - **RNF-R8:** Ogni utente vede solo ciò che gli spetta: il cliente solo i propri dati e prenotazioni, il dipendente le funzioni del centro.
 - **RNF-R9:** Tutte le comunicazioni usano HTTPS (TLS 1.2 o superiore).
 - **RNF-R10:** Dopo cinque accessi sbagliati di seguito, l'account si blocca per 15 minuti.
@@ -167,7 +167,7 @@ Ogni requisito ha un codice e una priorità. Qui ci sono solo i requisiti con pr
 
 - **V-IF1 — Google Calendar:** Le prenotazioni confermate possono essere sincronizzate con il Google Calendar del cliente tramite Google Calendar API, previa autorizzazione esplicita dell'utente (OAuth 2.0). Modifiche o annullamenti in SSP aggiornano l'evento entro 5 minuti.
 
-- **V-IF2 — Posta elettronica:** Il sistema genera messaggi standaRF pre-formulati (conferma, promemoria, annullamento, comunicazione del centro) a partire da modelli modificabili, compilati automaticamente con i dati della prenotazione. Il dipendente può inoltrare il messaggio pre-formulato al destinatario con una sola azione; le conferme sono inviate automaticamente.
+- **V-IF2 — Posta elettronica:** Il sistema genera messaggi standard pre-formulati (conferma, promemoria, annullamento, comunicazione del centro) a partire da modelli modificabili, compilati automaticamente con i dati della prenotazione. Il dipendente può inoltrare il messaggio pre-formulato al destinatario con una sola azione; le conferme sono inviate automaticamente.
 
 ---
 
