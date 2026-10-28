@@ -17,7 +17,7 @@
 
 ### 1.1.3 Interazione con i Corsi di Allenamento
 
-- **RF-U-08** Il sistema deve suddividere le prenotazioni in slot temporali, ciascuno con una capienza massima.
+- **RF-U-08:** Il sistema deve suddividere le prenotazioni in slot temporali, ciascuno con una capienza massima.
 - **RF-U-09:** Il sistema deve consentire al cliente di prenotare un preciso slot solo se disponibile.
 - **RF-U-10:** Il sistema deve mostrare che uno slot non è disponibile quando questo raggiunge la capienza massima.
 - **RF-U-11:** Il sistema deve consentire al cliente di annullare in qualsiasi momento una propria prenotazione.
@@ -28,14 +28,14 @@
 
 ### 1.1.5 Le Prenotazioni delle Visite Mediche
 
-- **RF-U-16** Il sistema permette ai clienti di prenotare da soli una visita medica, scegliendo un giorno e orario disponibile
+- **RF-U-16:** Il sistema permette ai clienti di prenotare da soli una visita medica, scegliendo un giorno e orario disponibile
 
 ## 1.2 Infermeria
 ### 1.2.1 Servizio di Infermeria
 
-- **RF-INF-01:**Il sistema deve consentire l'accesso all'area dedicata all'infermeria solamente ai medici del centro sportivo.
-- **RF-INF-02:**Il sistema deve permettere ai medici di gestire le visite mediche dei clienti.
-- **RF-INF-03:**Il sistema deve proibire l'assegnazione di una visita in un giorno o orario già occupati da un’altra visita medica.
+- **RF-INF-01:** Il sistema deve consentire l'accesso all'area dedicata all'infermeria solamente ai medici del centro sportivo.
+- **RF-INF-02:** Il sistema deve permettere ai medici di gestire le visite mediche dei clienti.
+- **RF-INF-03:** Il sistema deve proibire l'assegnazione di una visita in un giorno o orario già occupati da un’altra visita medica.
 
 ### 1.2.2 Il Medico
 - **RF-INF-04:** Il sistema deve permettere al medico di visualizzare l'elenco di tutti i clienti iscritti al centro sportivo.
@@ -63,7 +63,7 @@
 - **RF-RS-06:** Il sistema deve tenere traccia dei corsi che un responsabile gestisce.
 
 ### 1.4.2 Multi-utenza
-- **RF-RS-07:**Il sistema deve mostrare, al responsabile del corso, soltanto i clienti del corso a esso associato, e non quelli degli altri corsi.
+- **RF-RS-07:** Il sistema deve mostrare, al responsabile del corso, soltanto i clienti del corso a esso associato, e non quelli degli altri corsi.
 
 ## 1.5 Manager
 ### 1.5.1 Area Management
@@ -179,3 +179,4 @@ Ogni requisito ha un codice e una priorità. Qui ci sono solo i requisiti con pr
 - **System Design Document** : 24/11/2026
 - **Object Design Document (Parziale)** : 15/12/2026
 - **Testing** : 17/12/2026
+- **Release** : 02/01/2027
